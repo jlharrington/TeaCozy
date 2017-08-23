@@ -12,6 +12,9 @@ html,body {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: black;
   border-bottom: solid 1px seashell;
   height: 69px;
@@ -20,8 +23,25 @@ header {
   width: 100%;
 }
 
+header a {
+  color: seashell;
+}
+
+nav span {
+  padding: 10px;
+}
+
+.logo {
+  padding-left: 10px;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+}
+
 .content {
-  padding-top: 100px;
+  padding-top: 69px;
   width: 1200px;
   margin: auto;
 }
@@ -29,6 +49,7 @@ header {
 #mission {
   display: flex;
   height: 700px;
+  padding-top: 70px;
   background-image: url("../../resources/img/img-mission-background.jpg");
 }
 
@@ -70,4 +91,42 @@ h2,h4 {
 .image-content img {
   width: 300px;
   height: auto;
+}
+
+#locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+  margin: auto;
+  background-image: url("../../resources/img/img-locations-background.jpg");
+}
+
+.stores {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.store {
+  width: 300px;
+  background-color: black;
+  margin: 0px 20px;
+  opacity: 1;
+}
+
+.store p {
+  padding: 10px;
+}
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
 }
