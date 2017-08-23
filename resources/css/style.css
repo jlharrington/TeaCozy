@@ -1,2 +1,73 @@
 /* style.css for Tea Cozy */
 /* Updated 2017-08-20 */
+
+html,body {
+  margin: 0;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  border-bottom: solid 1px seashell;
+  height: 69px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.content {
+  padding-top: 100px;
+  width: 1200px;
+  margin: auto;
+}
+
+#mission {
+  display: flex;
+  height: 700px;
+  background-image: url("../../resources/img/img-mission-background.jpg");
+}
+
+h2,h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+#featured {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1000px;
+  padding-top: 60px;
+}
+
+.title {
+  background-color: black;
+  margin: auto;
+  width: 100%;
+}
+
+.featured-content {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.item {
+  padding: 15px;
+}
+
+.image-content {
+  padding-bottom: 10px;
+}
+
+.image-content img {
+  width: 300px;
+  height: auto;
+}
